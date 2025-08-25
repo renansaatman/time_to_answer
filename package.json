@@ -1,0 +1,13 @@
+{
+  "name": "time_to_answer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "renansaatman <renansaatman@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.6.3",
+    "jquery": "3.3.1",
+    "metismenu": "3.0.3"
+  }
+}
