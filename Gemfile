@@ -47,6 +47,9 @@ gem "rails-i18n", "~> 8.0.0"
 gem "tty-spinner"
 
 gem "sassc-rails"
+gem "faker"
+gem "kaminari"
+gem "kaminari-i18n"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -62,4 +65,5 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem "awesome_print"
 end
