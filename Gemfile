@@ -43,7 +43,7 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "devise"
-gem "rails-i18n", "~> 8.0.0"
+gem "rails-i18n", "~> 8.0.2"
 gem "tty-spinner"
 
 gem "sassc-rails"
