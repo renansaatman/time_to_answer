@@ -15,6 +15,16 @@ Rails.application.configure do
   # Enable server timing.
   config.server_timing = true
 
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    user_name: "8336fb4e789528",
+    password: "105ea613a66682",
+    address: "sandbox.smtp.mailtrap.io",
+    host: "sandbox.smtp.mailtrap.io",
+    port: "2525",
+    authentication: :login
+  }
+
   # Enable/disable Action Controller caching. By default Action Controller caching is disabled.
   # Run rails dev:cache to toggle Action Controller caching.
   if Rails.root.join("tmp/caching-dev.txt").exist?
